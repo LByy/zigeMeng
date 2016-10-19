@@ -1,0 +1,105 @@
+//
+//  PrefixHeader.pch
+//  小伴马2.0
+//
+//  Created by Daniate on 15/10/21.
+//  Copyright © 2015年 Daniate. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <Availability.h>
+
+#ifndef __IPHONE_9_0
+#error "Please open this project in Xcode 7 and later."
+#endif
+
+#ifndef __IPHONE_7_0
+#error "This project uses features only available in iOS SDK 7.0 and later."
+#endif
+
+#ifdef __OBJC__
+
+#import <AvailabilityInternal.h>
+#import <objc/runtime.h>
+
+//@import CoreFoundation;
+//@import Foundation;
+//@import CoreGraphics;
+//@import UIKit;
+//@import QuartzCore;
+//@import Security;
+//@import AVFoundation;
+//@import CFNetwork;
+//@import CoreTelephony;
+//@import SystemConfiguration;
+
+
+#import <INBKit/INBKit.h>
+// ----------------------------------------------------------
+// __Pods__
+#import "AFNetworking.h"
+//#import "CAKeyframeAnimation+AHEasing.h"
+//#import "GPUImageFramework.h"
+//#import "KDCycleBannerView.h"
+//#import "Masonry.h"
+//#import "MBProgressHUD.h"
+//#import "MJExtension.h"
+//#import "SDWebImage.h"
+// end of __Pods__
+
+//#import "StyledPageControl.h"
+// ----------------------------------------------------------
+// 极光推送
+//#import "APService.h"
+//// 友盟统计
+//#import "MobClick.h"
+//#import "MobClickSocialAnalytics.h"
+//// 七牛云存储
+//#import "QiniuSDK.h"
+//
+//#define ZMPushEnv (0) // 0测试，1生产
+//
+//#define ZMQNAK @"1YYjEoB3Umr1481h22X7uYXIubztmG0ybM2rNJpm"
+//#define ZMQNSK @"RCff87FLPpxzHK7VWqAIgQ5F1OuPQ-cV41kvRlxz"
+//#define ZMQNScope @"fish-dev" // 七牛空间，只上传渔获资源
+//#define ZMQNDomain @"http://7xlq79.com1.z0.glb.clouddn.com/"
+
+// ----------------------------------------------------------
+//#import "ZGUserDefaultsManager.h"
+//
+//#import "UIBarButtonItem+ZG.h"
+//#import "INBCountDownButton.h"
+//#import "ZMGifLoadingView.h"
+//
+//
+//#import "ZGVC.h"
+//#import "ZGTableVC.h"
+//#import "ZGCollectionVC.h"
+//#import "ZGNavigationController.h"
+//#import "UIViewController+ZG.h"
+//#import "WWSideslipViewController.h"
+// ----------------------------MI------------------------------
+//#import <OneAPM/OneAPM.h>
+
+
+// ---------------------ZGRequestModel(s)--------------------------
+
+// ----------------------------------------------------------
+
+
+// 以375*667屏幕为基准
+#define kScreenWidthRatio (INBScreenWidth / 375.0)
+// 登录、注册等界面使用背景颜色
+#define kViewBgColor INBHexColor(0xF6F7F8)
+// 登录、注册等界面上的按钮，所使用的橘黄色
+#define kButtonOrangeColor INBHexColor(0xFDC852)
+// 分隔线颜色
+#define kSeparatorColor INBHexColor(0xE0E0E0)
+
+#endif /* __OBJC__ */
+
+#endif /* PrefixHeader_pch */

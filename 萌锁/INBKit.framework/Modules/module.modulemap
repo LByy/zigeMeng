@@ -1,0 +1,6 @@
+framework module INBKit {
+  umbrella header "INBKit.h"
+
+  export *
+  module * { export * }
+}

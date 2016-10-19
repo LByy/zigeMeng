@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFCEB6E91DB713AF000054A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCEB6E81DB713AF000054A0 /* main.m */; };
+		CFCEB6EC1DB713AF000054A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCEB6EB1DB713AF000054A0 /* AppDelegate.m */; };
+		CFCEB6EF1DB713AF000054A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCEB6EE1DB713AF000054A0 /* ViewController.m */; };
+		CFCEB6F21DB713AF000054A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFCEB6F01DB713AF000054A0 /* Main.storyboard */; };
+		CFCEB6F41DB713AF000054A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFCEB6F31DB713AF000054A0 /* Assets.xcassets */; };
+		CFCEB6F71DB713AF000054A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFCEB6F51DB713AF000054A0 /* LaunchScreen.storyboard */; };
+		CFCEB7021DB713AF000054A0 /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCEB7011DB713AF000054A0 /* __Tests.m */; };
+		CFCEB70D1DB713AF000054A0 /* __UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCEB70C1DB713AF000054A0 /* __UITests.m */; };
+		CFCEB71C1DB71455000054A0 /* INBKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CFCEB71A1DB71455000054A0 /* INBKit.bundle */; };
+		CFCEB71D1DB71455000054A0 /* INBKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCEB71B1DB71455000054A0 /* INBKit.framework */; };
+		DE3B9BF5D7A52CAB96F68210 /* libPods-萌锁.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2CCE0786D1E4DBA8CC6AEAA /* libPods-萌锁.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFCEB6FE1DB713AF000054A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFCEB6DC1DB713AF000054A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFCEB6E31DB713AF000054A0;
+			remoteInfo = "萌锁";
+		};
+		CFCEB7091DB713AF000054A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFCEB6DC1DB713AF000054A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFCEB6E31DB713AF000054A0;
+			remoteInfo = "萌锁";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		128C145DACC30E82CEADEDEE /* Pods-萌锁.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-萌锁.debug.xcconfig"; path = "Pods/Target Support Files/Pods-萌锁/Pods-萌锁.debug.xcconfig"; sourceTree = "<group>"; };
+		9068EE9AEBCABFF2676CA943 /* Pods-萌锁.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-萌锁.release.xcconfig"; path = "Pods/Target Support Files/Pods-萌锁/Pods-萌锁.release.xcconfig"; sourceTree = "<group>"; };
+		CFCEB6E41DB713AF000054A0 /* 萌锁.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "萌锁.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFCEB6E81DB713AF000054A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CFCEB6EA1DB713AF000054A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CFCEB6EB1DB713AF000054A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CFCEB6ED1DB713AF000054A0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CFCEB6EE1DB713AF000054A0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CFCEB6F11DB713AF000054A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFCEB6F31DB713AF000054A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFCEB6F61DB713AF000054A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFCEB6F81DB713AF000054A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFCEB6FD1DB713AF000054A0 /* 萌锁Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "萌锁Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFCEB7011DB713AF000054A0 /* __Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __Tests.m; sourceTree = "<group>"; };
+		CFCEB7031DB713AF000054A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFCEB7081DB713AF000054A0 /* 萌锁UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "萌锁UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFCEB70C1DB713AF000054A0 /* __UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __UITests.m; sourceTree = "<group>"; };
+		CFCEB70E1DB713AF000054A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFCEB71A1DB71455000054A0 /* INBKit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = INBKit.bundle; sourceTree = "<group>"; };
+		CFCEB71B1DB71455000054A0 /* INBKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = INBKit.framework; sourceTree = "<group>"; };
+		CFCEB7231DB7181D000054A0 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		D2CCE0786D1E4DBA8CC6AEAA /* libPods-萌锁.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-萌锁.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFCEB6E11DB713AF000054A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE3B9BF5D7A52CAB96F68210 /* libPods-萌锁.a in Frameworks */,
+				CFCEB71D1DB71455000054A0 /* INBKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFCEB6FA1DB713AF000054A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFCEB7051DB713AF000054A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		767A1FBE1B76DB42679E0093 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2CCE0786D1E4DBA8CC6AEAA /* libPods-萌锁.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFCEB6DB1DB713AF000054A0 = {
+			isa = PBXGroup;
+			children = (
+				CFCEB6E61DB713AF000054A0 /* 萌锁 */,
+				CFCEB7001DB713AF000054A0 /* 萌锁Tests */,
+				CFCEB70B1DB713AF000054A0 /* 萌锁UITests */,
+				CFCEB6E51DB713AF000054A0 /* Products */,
+				E608866E445A30A2E71A5B5B /* Pods */,
+				767A1FBE1B76DB42679E0093 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CFCEB6E51DB713AF000054A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFCEB6E41DB713AF000054A0 /* 萌锁.app */,
+				CFCEB6FD1DB713AF000054A0 /* 萌锁Tests.xctest */,
+				CFCEB7081DB713AF000054A0 /* 萌锁UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFCEB6E61DB713AF000054A0 /* 萌锁 */ = {
+			isa = PBXGroup;
+			children = (
+				CFCEB6EA1DB713AF000054A0 /* AppDelegate.h */,
+				CFCEB6EB1DB713AF000054A0 /* AppDelegate.m */,
+				CFCEB6ED1DB713AF000054A0 /* ViewController.h */,
+				CFCEB6EE1DB713AF000054A0 /* ViewController.m */,
+				CFCEB6F01DB713AF000054A0 /* Main.storyboard */,
+				CFCEB6F31DB713AF000054A0 /* Assets.xcassets */,
+				CFCEB6F51DB713AF000054A0 /* LaunchScreen.storyboard */,
+				CFCEB6F81DB713AF000054A0 /* Info.plist */,
+				CFCEB6E71DB713AF000054A0 /* Supporting Files */,
+			);
+			path = "萌锁";
+			sourceTree = "<group>";
+		};
+		CFCEB6E71DB713AF000054A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFCEB7231DB7181D000054A0 /* PrefixHeader.pch */,
+				CFCEB71A1DB71455000054A0 /* INBKit.bundle */,
+				CFCEB71B1DB71455000054A0 /* INBKit.framework */,
+				CFCEB6E81DB713AF000054A0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFCEB7001DB713AF000054A0 /* 萌锁Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CFCEB7011DB713AF000054A0 /* __Tests.m */,
+				CFCEB7031DB713AF000054A0 /* Info.plist */,
+			);
+			path = "萌锁Tests";
+			sourceTree = "<group>";
+		};
+		CFCEB70B1DB713AF000054A0 /* 萌锁UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFCEB70C1DB713AF000054A0 /* __UITests.m */,
+				CFCEB70E1DB713AF000054A0 /* Info.plist */,
+			);
+			path = "萌锁UITests";
+			sourceTree = "<group>";
+		};
+		E608866E445A30A2E71A5B5B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				128C145DACC30E82CEADEDEE /* Pods-萌锁.debug.xcconfig */,
+				9068EE9AEBCABFF2676CA943 /* Pods-萌锁.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFCEB6E31DB713AF000054A0 /* 萌锁 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFCEB7111DB713AF000054A0 /* Build configuration list for PBXNativeTarget "萌锁" */;
+			buildPhases = (
+				D71E813973D16B3D55CA37AE /* [CP] Check Pods Manifest.lock */,
+				CFCEB6E01DB713AF000054A0 /* Sources */,
+				CFCEB6E11DB713AF000054A0 /* Frameworks */,
+				CFCEB6E21DB713AF000054A0 /* Resources */,
+				A6F50EDADD98BD01A68D5686 /* [CP] Embed Pods Frameworks */,
+				BE6AE6A26B543EF14A4AE38E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "萌锁";
+			productName = "萌锁";
+			productReference = CFCEB6E41DB713AF000054A0 /* 萌锁.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFCEB6FC1DB713AF000054A0 /* 萌锁Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFCEB7141DB713AF000054A0 /* Build configuration list for PBXNativeTarget "萌锁Tests" */;
+			buildPhases = (
+				CFCEB6F91DB713AF000054A0 /* Sources */,
+				CFCEB6FA1DB713AF000054A0 /* Frameworks */,
+				CFCEB6FB1DB713AF000054A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFCEB6FF1DB713AF000054A0 /* PBXTargetDependency */,
+			);
+			name = "萌锁Tests";
+			productName = "萌锁Tests";
+			productReference = CFCEB6FD1DB713AF000054A0 /* 萌锁Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFCEB7071DB713AF000054A0 /* 萌锁UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFCEB7171DB713AF000054A0 /* Build configuration list for PBXNativeTarget "萌锁UITests" */;
+			buildPhases = (
+				CFCEB7041DB713AF000054A0 /* Sources */,
+				CFCEB7051DB713AF000054A0 /* Frameworks */,
+				CFCEB7061DB713AF000054A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFCEB70A1DB713AF000054A0 /* PBXTargetDependency */,
+			);
+			name = "萌锁UITests";
+			productName = "萌锁UITests";
+			productReference = CFCEB7081DB713AF000054A0 /* 萌锁UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFCEB6DC1DB713AF000054A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = com.zige.meng;
+				TargetAttributes = {
+					CFCEB6E31DB713AF000054A0 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					CFCEB6FC1DB713AF000054A0 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = CFCEB6E31DB713AF000054A0;
+					};
+					CFCEB7071DB713AF000054A0 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = CFCEB6E31DB713AF000054A0;
+					};
+				};
+			};
+			buildConfigurationList = CFCEB6DF1DB713AF000054A0 /* Build configuration list for PBXProject "萌锁" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFCEB6DB1DB713AF000054A0;
+			productRefGroup = CFCEB6E51DB713AF000054A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFCEB6E31DB713AF000054A0 /* 萌锁 */,
+				CFCEB6FC1DB713AF000054A0 /* 萌锁Tests */,
+				CFCEB7071DB713AF000054A0 /* 萌锁UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFCEB6E21DB713AF000054A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFCEB6F71DB713AF000054A0 /* LaunchScreen.storyboard in Resources */,
+				CFCEB6F41DB713AF000054A0 /* Assets.xcassets in Resources */,
+				CFCEB71C1DB71455000054A0 /* INBKit.bundle in Resources */,
+				CFCEB6F21DB713AF000054A0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFCEB6FB1DB713AF000054A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFCEB7061DB713AF000054A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A6F50EDADD98BD01A68D5686 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-萌锁/Pods-萌锁-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE6AE6A26B543EF14A4AE38E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-萌锁/Pods-萌锁-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D71E813973D16B3D55CA37AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFCEB6E01DB713AF000054A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFCEB6EF1DB713AF000054A0 /* ViewController.m in Sources */,
+				CFCEB6EC1DB713AF000054A0 /* AppDelegate.m in Sources */,
+				CFCEB6E91DB713AF000054A0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFCEB6F91DB713AF000054A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFCEB7021DB713AF000054A0 /* __Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFCEB7041DB713AF000054A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFCEB70D1DB713AF000054A0 /* __UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFCEB6FF1DB713AF000054A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFCEB6E31DB713AF000054A0 /* 萌锁 */;
+			targetProxy = CFCEB6FE1DB713AF000054A0 /* PBXContainerItemProxy */;
+		};
+		CFCEB70A1DB713AF000054A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFCEB6E31DB713AF000054A0 /* 萌锁 */;
+			targetProxy = CFCEB7091DB713AF000054A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFCEB6F01DB713AF000054A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFCEB6F11DB713AF000054A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFCEB6F51DB713AF000054A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFCEB6F61DB713AF000054A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFCEB70F1DB713AF000054A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CFCEB7101DB713AF000054A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFCEB7121DB713AF000054A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 128C145DACC30E82CEADEDEE /* Pods-萌锁.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/萌锁",
+				);
+				GCC_PREFIX_HEADER = "/Users/apple/Desktop/MY/New VR/萌锁/萌锁/PrefixHeader.pch";
+				INFOPLIST_FILE = "萌锁/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zige.meng.--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CFCEB7131DB713AF000054A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9068EE9AEBCABFF2676CA943 /* Pods-萌锁.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/萌锁",
+				);
+				GCC_PREFIX_HEADER = "/Users/apple/Desktop/MY/New VR/萌锁/萌锁/PrefixHeader.pch";
+				INFOPLIST_FILE = "萌锁/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zige.meng.--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CFCEB7151DB713AF000054A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "萌锁Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zige.meng.--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/萌锁.app/萌锁";
+			};
+			name = Debug;
+		};
+		CFCEB7161DB713AF000054A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "萌锁Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zige.meng.--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/萌锁.app/萌锁";
+			};
+			name = Release;
+		};
+		CFCEB7181DB713AF000054A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "萌锁UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zige.meng.--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "萌锁";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CFCEB7191DB713AF000054A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "萌锁UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zige.meng.--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "萌锁";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFCEB6DF1DB713AF000054A0 /* Build configuration list for PBXProject "萌锁" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFCEB70F1DB713AF000054A0 /* Debug */,
+				CFCEB7101DB713AF000054A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFCEB7111DB713AF000054A0 /* Build configuration list for PBXNativeTarget "萌锁" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFCEB7121DB713AF000054A0 /* Debug */,
+				CFCEB7131DB713AF000054A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFCEB7141DB713AF000054A0 /* Build configuration list for PBXNativeTarget "萌锁Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFCEB7151DB713AF000054A0 /* Debug */,
+				CFCEB7161DB713AF000054A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFCEB7171DB713AF000054A0 /* Build configuration list for PBXNativeTarget "萌锁UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFCEB7181DB713AF000054A0 /* Debug */,
+				CFCEB7191DB713AF000054A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFCEB6DC1DB713AF000054A0 /* Project object */;
+}
