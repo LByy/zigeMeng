@@ -23,6 +23,9 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
+    
+    //我的名字是 王五wangwu
+    
     // Dispose of any resources that can be recreated.
 }
 
